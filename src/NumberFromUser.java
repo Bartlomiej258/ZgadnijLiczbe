@@ -16,7 +16,7 @@ public class NumberFromUser {
                 System.out.println("Liczba nie jest podzielna przez 3");
         } while (number < 100 || number > 200 || number % 3 != 0);
 
-        System.out.println("Liczba to: " + number);
+        System.out.println("Liczba spełnijąca warunki to: " + number);
 
 
     }
